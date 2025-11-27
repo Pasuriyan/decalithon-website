@@ -1,42 +1,133 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.nav {
+  width: 100%;
+  background: white;
+  padding: 12px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+/* Left Section */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.all-sports {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  color: #2346b7;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Search Box */
+.search-box {
+  width: 40%;
+  background: #f4f3f4;
+  padding: 8px 15px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
 }
 
-.card {
-  padding: 2em;
+/* Right Section */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
-.read-the-docs {
-  color: #888;
+.location .title {
+  font-size: 12px;
+  color: #333;
+}
+
+.pin {
+  color: #2346b7;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.change {
+  color: #0077ff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Icons + Text */
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 13px;
+  color: #222;
+  /* cursor: pointer; */
+}
+
+.icon {
+  font-size: 20px;
+}
+/* sign page */
+.img{
+  width: 770px;
+  height: 600px;
+}
+.top{
+  display: flex;
+  gap: 200px;
+ 
+}
+.box{
+  width: 390px;
+  height: 40px;
+}
+.btn{
+  background-color: #2346b7;
+  width: 390px;
+  height: 40px;
+  color: white;
+  
+}
+ul{
+  color: #324b7d;
+  margin-top: 20px;
+  font-size: large;
+  line-height: 33px ;
+
+}
+.map-container {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.map-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.map{
+  margin-left: 390px;
 }
