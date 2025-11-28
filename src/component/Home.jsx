@@ -15,7 +15,7 @@ export default function Home() {
              
           {/* <h1>Welcome to Decathlon</h1> */}
           {/* <p>Everything for Sports, Fitness & Adventure</p> */}
-          <Link to="/Products" className="btn btn1">Shop Now</Link>
+          <Link to="/Products" className="btn btnt">Shop Now</Link>
         </div>
       </div>
       {/* ---------- CATEGORY SECTION ---------- */}
