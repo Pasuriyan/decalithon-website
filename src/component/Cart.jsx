@@ -8,6 +8,7 @@ export default function CartPage() {
   return (
     <div className="cart-box">
       <h1>Your Cart</h1>
+      <h1>oooo</h1>
 
       {cart.length === 0 ? (
         <p>No items added yet.</p>
