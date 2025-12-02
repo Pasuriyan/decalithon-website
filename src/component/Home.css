@@ -91,15 +91,39 @@
   color: white;
 }
 .img1{
-  width: 1470px;
+  width: 1400px;
   height: 500px;
-  margin-left: 0%;
+  /* margin-right: 1px; */
+  margin-top: 10px;
 
 }
-.btn1{
+.btnt{
   position: relative;
-  bottom: 100px;
+  bottom: 95px;
+  left: 210px;
+  color: rgb(254, 254, 254);
+  background-color: rgb(60, 66, 184);
+  font-size: large;
+  border-radius: 20px;
+}
+.ney{
+  position: relative;
+  bottom: 250px;
   left: 100px;
-  color: black;
-  background-color: white;
+  font-size: xx-large
+
+}
+/* ------------ OFFER SECTION ------------ */
+.offer-section {
+  text-align: center;
+  padding: 50px;
+  background: #f5f5f5;
+}
+
+.offer-card {
+  background: white;
+  padding: 25px;
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
 }

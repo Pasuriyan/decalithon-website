@@ -28,7 +28,7 @@ export default function Navbar() {
         </div>
 
         <div className="item">
-          <Link to="/products">Products</Link>
+          <Link to="/Product">Product</Link>
         </div>
 
         <div className="item">
